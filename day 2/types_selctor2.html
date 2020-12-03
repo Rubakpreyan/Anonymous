@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* direct child of any article*/
+        section > article
+        {
+            color: blue;
+            font-size: 24px;
+        }
+        /* h2 as direct child*/
+        section > h2
+        {
+            color : green;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        child selector
+    </h1>
+    <section>
+        <h2> Sub heading</h2>
+        <div>
+            <article>
+                Article inside div which is inside section
+            </article>
+        </div>
+    </section>
+    <section>
+        <article>
+            article as a direct child of the section element.
+        </article>
+    </section>
+    <h2> subheading 2</h2>
+</body>
+</html>
