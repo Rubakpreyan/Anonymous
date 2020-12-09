@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo</title>
+    <style>
+      header li {
+        list-style: none;
+      }
+      a:link,
+      a:visited {
+        text-decoration: none;
+        background-color: green;
+        border: 2px solid yellow;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      a:hover,
+      a:active {
+        background-color: aqua;
+        color: blueviolet;
+      }
+      header li:nth-child(3) {
+        font-size: 50px;
+      }
+      section div:nth-child(odd) {
+        background-color: crimson;
+      }
+      section div:nth-child(odd):hover {
+        background-color: darkgray;
+      }
+      section div:nth-child(even):hover {
+        background-color: darkgoldenrod;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo class</h1>
+    <header>
+      <ul>
+        <li>
+          <center><a href="">home</a></center>
+        </li>
+        <li>
+          <a href="https://github.com/Rubakpreyan/Anonymous" target="_blank">github</a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/completed" target="_blank">course</a>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <div>Div1</div>
+      <div>Div2</div>
+      <div>Div3</div>
+      <div>Div4</div>
+      <div>Div5</div>
+      <div>Div6</div>
+      <div>Div7</div>
+      <div>Div8</div>
+      <div>Div9</div>
+      <div>Div10</div>
+      <div>Div11</div>
+    </section>
+  </body>
+</html>
