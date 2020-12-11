@@ -1,0 +1,54 @@
+/* base style */
+h1
+{
+    margin-bottom: 15px;
+}
+p
+{
+    border: 1px solid maroon;
+    margin-bottom: 15px;
+}
+#p1
+{
+    background-color: mediumaquamarine;
+    width: 300px;
+    height: 300px;
+}
+#p2
+{
+    background-color: chocolate;
+    width: 50px;
+    height: 50px;
+}
+
+/* for large devices */
+@media (min-width : 1200px)
+{
+    #p1
+    {
+        width: 80%;
+    }
+    #p2
+    {
+        width: 150px;
+        height: 150px;
+
+    }
+}
+
+/* for medium devices */
+@media (min-width :992px) and (max-width:1199px)
+{
+    #p1
+    {
+        
+        width: 50%;
+
+    }
+    #p2
+    {
+    
+        width: 100px;
+        height: 100px;
+    }
+}
